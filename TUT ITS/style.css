@@ -86,7 +86,7 @@ body{
     overflow: hidden;
     width: 350px;
     border-radius: 5px;
-    box-shadow: 0 0 1px rgba(0, 245, 0, 0.25)
+    box-shadow: 0 0 4px rgba(0, 245, 0, 0.25)
 }
 .log-in{
     text-decoration: none;
@@ -103,10 +103,18 @@ body{
 }
 .input-field-pin{
     margin-top:20px;
+    box-shadow: none;
+    border-style: solid;
 }
+.input-field-pin:focus{
+    /*box-shadow: 0 0 10px rgba(0, 0, 60, 20);*/
 
+    border-style: solid;
+}
 .input-field-number{
     margin-top: 50px;
+    box-shadow: none;
+    border-style: solid;
 }
 .input-field-number{
     font-size: 20px;
