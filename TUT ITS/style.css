@@ -98,7 +98,7 @@ body{
     text-align: center;
     margin-bottom: 20px     ;
     padding-top: 8px;
-    border-radius: 60px;
+    border-radius: 0;
     font-size: 21px;
 }
 .input-field-pin{
@@ -116,21 +116,20 @@ body{
     box-shadow: none;
     border-style: solid;
 }
-.input-field-number{
-    font-size: 20px;
-}
-.input-field-pin{
-    font-size: 20px;
-}
+
 .input-field-pin, .input-field-number{
+    font-size: 14px;
     height: 25px;
     border-width: 0.3px;
     border-radius: 5px;
     margin-bottom: 20px;
     align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .input-field-pin::placeholder, .input-field-number::placeholder{
     color: black;
+    font-weight: 300;
 }
 @media (max-width: 600px){
     body{
