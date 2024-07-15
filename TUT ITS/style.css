@@ -61,12 +61,9 @@ body{
 }
 
 .login-box-container{
-
-
     background-color: white;
     height: 400px;
     max-height: 400px;
-    /*display: flex;*/
     width: 350px;
     z-index: 2;
     display: block;
@@ -85,8 +82,8 @@ body{
     align-content: center;
     overflow: hidden;
     width: 350px;
-    border-radius: 5px;
-    box-shadow: 0 0 4px rgba(0, 245, 0, 0.25)
+    border-radius: 0;
+    box-shadow: 0 0 1px rgb(0, 137, 253)
 }
 .log-in{
     text-decoration: none;
@@ -133,12 +130,15 @@ body{
 }
 @media (max-width: 600px){
     body{
-        transition: 0.1s;
+
     }
     .background-container{
         background-image: none;
+        transition: 0.5s;
     }
     .login-box-container{
+
+        transition: 2s;
         top: 0;
 
     }
