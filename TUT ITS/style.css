@@ -83,7 +83,7 @@ body{
     overflow: hidden;
     width: 350px;
     border-radius: 0;
-    box-shadow: 0 0 1px rgb(0, 137, 253)
+    /*box-shadow: 0 0 1px rgb(0, 137, 253)*/
 }
 .log-in{
     text-decoration: none;
