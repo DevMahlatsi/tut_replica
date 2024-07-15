@@ -68,17 +68,14 @@ body{
     z-index: 2;
     display: block;
     border-width: 10px;
-
-    border-color: red;
+    /*border-color: red;*/
     border-radius: 5px;
     position: fixed;
     padding-bottom: 25px;
 
 }
 .type-of-user{
-
     display: inline-flex;
-
     align-content: center;
     overflow: hidden;
     width: 350px;
