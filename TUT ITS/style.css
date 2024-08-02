@@ -131,8 +131,9 @@ body{
 
     }
     .background-container{
+        background-color: white;
         background-image: none;
-        transition: 0.5s;
+        transition: 1s;
     }
     .login-box-container{
 
@@ -142,9 +143,10 @@ body{
     }
     .type-of-user{
         padding-top: 180px;
+        transition: 3s;
     }
     .input-field-pin, .input-field-number{
         width: 220px;
-        height: 50px;
+        height: 40px;
     }
 }
