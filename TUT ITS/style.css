@@ -96,6 +96,11 @@ body{
     border-radius: 0;
     font-size: 21px;
 }
+.help{
+    text-align: center;
+    text-decoration: underline;
+    /*text-deco*/
+}
 .input-field-pin{
     margin-top:20px;
     box-shadow: none;

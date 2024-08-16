@@ -19,13 +19,13 @@
       <div class="type-of-user" ; style="">
 
         <input class="radio__input" type= "radio" name = "userType" value="student" id="radio1" checked>
-        <label class="radio_label" for="radio1">Student</label>
+        <label class="radio_label" for="radio1" onclick="student_click()"> Student</label>
         <input class="radio__input" type= "radio" name = "userType" value="personnel" id="radio2" >
-        <label class="radio_label" for="radio2">Personnel</label>
+        <label class="radio_label" for="radio2" onclick="personnelClick()">Personnel</label>
         <input class="radio__input" type= "radio" name = "userType" value="other" id="radio3">
-        <label class="radio_label"for="radio3">Other</label>
+        <label class="radio_label"for="radio3" onclick="otherClick()">Other</label>
         <input class="radio__input" type= "radio" name = "userType" value="alumni" id="radio4">
-        <label class="radio_label" for="radio4">Alumni</label>
+        <label class="radio_label" for="radio4" onclick="alumniClick()">Alumni</label>
 
       </div>
 
@@ -53,9 +53,14 @@
 
           ">
         <a class="log-in"
-           href="https://www.typeracer.com"
+           href="#"
            id="log-in"
+           onclick="help_click()"
            >Login</a>
+
+        <a  href="#" onclick="help_click()" class="help">
+          Help
+        </a>
 <!--      <button class="bottom-buttons"-->
 <!--              style="-->
 <!--              background-color: white;-->
@@ -90,5 +95,6 @@
 
     </div>
   </div>
+<script src="app.js" ></script>
 </body>
 </html>
